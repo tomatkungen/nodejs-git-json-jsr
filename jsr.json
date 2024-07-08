@@ -1,6 +1,6 @@
 {
   "name": "@tomatkungen/nodejs-git-json",
-  "version": "0.1.0",
-  "exports": "./main.ts"
+  "version": "0.1.1",
+  "exports": "./index.ts"
 }
 

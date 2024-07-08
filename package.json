@@ -1,6 +1,26 @@
 {
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "name": "nodejs-git-json",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "ts-node test.ts",
+    "publish": "jsr publish",
+    "preview": "jsr publish --dry-run"
+  },
   "devDependencies": {
-    "jsr": "^0.13.0"
-  }
+    "@types/node": "^20.14.10",
+    "jsr": "^0.13.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  },
+  "author": "mr_a2@hotmail.com",
+  "license": "MIT",
+  "keywords": [
+    "git",
+    "node",
+    "nodejs",
+    "json"
+  ],
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
