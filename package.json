@@ -1,11 +1,11 @@
 {
   "name": "nodejs-git-json",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "scripts": {
     "dev": "ts-node index.ts",
     "test": "ts-node test.ts",
-    "publish": "jsr publish",
-    "preview": "jsr publish --dry-run"
+    "jsr:publish": "jsr publish",
+    "jsr:preview": "jsr publish --dry-run"
   },
   "devDependencies": {
     "@types/node": "^20.14.10",
