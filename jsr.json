@@ -1,6 +1,15 @@
 {
   "name": "@tomatkungen/nodejs-git-json",
   "version": "0.1.1",
-  "exports": "./index.ts"
+  "exports": "./index.ts",
+  "publish": {
+    "exclude": [
+      "test.ts",
+      "backup",
+      ".vscode",
+      ".nvmrc",
+      "yarn.lock"
+    ]
+  }
 }
 
